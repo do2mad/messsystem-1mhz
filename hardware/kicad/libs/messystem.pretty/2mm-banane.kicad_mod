@@ -1,0 +1,98 @@
+(footprint "2mm-banane"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "96c1b35d-4c44-4a33-9b75-e549cf14bc6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "2mm-banane"
+		(at 0 1)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4274d3ab-fe9c-4d73-a54a-053ec1711549")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06a33bd6-154c-4370-869e-dc5c181e7878")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87d55b0b-4a84-4cb5-a0df-3914646956d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f45fcdff-bba0-4590-af65-f184e21c0a31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.71 -4.79 90)
+		(size 7 7)
+		(drill 4.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f9586eb-5e88-45ef-9beb-ddb647cceaed")
+	)
+	(pad "2" thru_hole circle
+		(at 5.29 -4.79 90)
+		(size 7 7)
+		(drill 4.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c81afba8-dcc5-4391-af6a-01ddb7c776cf")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/Banana_2mm_Pair_MAD.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

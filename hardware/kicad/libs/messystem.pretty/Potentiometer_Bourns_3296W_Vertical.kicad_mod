@@ -1,0 +1,328 @@
+(footprint "Potentiometer_Bourns_3296W_Vertical"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
+	(tags "Potentiometer vertical Bourns 3296W")
+	(property "Reference" "REF**"
+		(at -2.54 -3.66)
+		(layer "F.SilkS")
+		(uuid "3e625891-90ad-4c80-bb6f-80e1241407e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Bourns_3296W_Vertical"
+		(at -2.54 3.67)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cd68067-c57a-415c-bd98-7986aea187b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "072e0f08-5df1-4ccc-b4c4-2c367fa47b1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf"
+		(at 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fef161e-6e08-482f-97a3-4948b0982392")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7.425 -2.53)
+		(end -7.425 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3185e6e-3e25-4daf-a6b0-cdc05d5ae009")
+	)
+	(fp_line
+		(start -7.425 -2.53)
+		(end 2.345 -2.53)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "edf9b451-f4e6-49a4-86b4-de93735a1896")
+	)
+	(fp_line
+		(start -7.425 2.54)
+		(end 2.345 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "700d33d4-8ee1-468f-8a52-3d363820e801")
+	)
+	(fp_line
+		(start -5.08 -1.778)
+		(end -5.08 -1.016)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b83a82e8-b448-4648-ba22-03664f662e37")
+	)
+	(fp_line
+		(start -3.556 -1.778)
+		(end -5.08 -1.778)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5e96730-5b7f-48ed-8f59-887446653c39")
+	)
+	(fp_line
+		(start -2.54 -1.524)
+		(end -2.54 -1.016)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a156be3-87dc-4f89-9af4-e416a40509f3")
+	)
+	(fp_line
+		(start -1.524 -1.778)
+		(end 0 -1.778)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c5ee1bd-11e9-4419-b504-e97d713498ca")
+	)
+	(fp_line
+		(start 0 -1.778)
+		(end 0 -1.016)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aec301a1-738a-4a28-ac80-1182d329ffdb")
+	)
+	(fp_line
+		(start 2.345 -2.53)
+		(end 2.345 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc8d66fa-78fa-485f-879f-bfebe0bf3a2c")
+	)
+	(fp_rect
+		(start -3.556 -2.032)
+		(end -1.524 -1.524)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f32d3d2f-dfb0-4432-bc4d-9ce4c727869e")
+	)
+	(fp_poly
+		(pts
+			(xy -2.413 -1.27)
+			(xy -2.667 -1.27)
+			(xy -2.54 -1.524)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a4ec931c-ac40-4914-839c-e0c2e11ae2a0")
+	)
+	(fp_line
+		(start -7.6 -2.7)
+		(end -7.6 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "905c4846-f01a-4356-aad0-243fa652454f")
+	)
+	(fp_line
+		(start -7.6 2.7)
+		(end 2.5 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7eb11a7-d356-4071-8057-4affd7be3f4e")
+	)
+	(fp_line
+		(start 2.5 -2.7)
+		(end -7.6 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5adbded-98bd-4b8f-bcd6-bbe831519924")
+	)
+	(fp_line
+		(start 2.5 2.7)
+		(end 2.5 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fcf8e0fc-547c-4456-ad41-ec2e51ea957f")
+	)
+	(fp_line
+		(start -7.305 -2.41)
+		(end -7.305 2.42)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8d9f259-ac35-4df2-9c6a-802ec229d6f7")
+	)
+	(fp_line
+		(start -7.305 2.42)
+		(end 2.225 2.42)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8a14f57-97ef-49e1-ab67-3bc9aeec6d29")
+	)
+	(fp_line
+		(start 0.955 2.235)
+		(end 0.956 0.066)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4ad5a31-1968-450e-b694-71f97004f4de")
+	)
+	(fp_line
+		(start 0.955 2.235)
+		(end 0.956 0.066)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc943c52-08d9-4f8e-9806-1661a2218572")
+	)
+	(fp_line
+		(start 2.225 -2.41)
+		(end -7.305 -2.41)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ff55d7c-2942-446d-935c-bf9270906bdc")
+	)
+	(fp_line
+		(start 2.225 2.42)
+		(end 2.225 -2.41)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e037e36b-7fe5-4acf-8fd7-cc95f25ffea6")
+	)
+	(fp_circle
+		(center 0.955 1.15)
+		(end 2.05 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0fb9e81a-c741-45ef-8620-bf8d6655eae3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.175 0.005)
+		(layer "F.Fab")
+		(uuid "10d9ed75-f43a-4f57-bbb7-b851e9b56599")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3a5bd3a6-fb03-4cb5-81f1-f5a74864774c")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "930ba529-2c8d-42c3-8a32-25cea8cb28f3")
+	)
+	(pad "3" thru_hole circle
+		(at -5.08 0)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9ca95c6-a2da-45df-9cf4-98d5e97b0295")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/Potentiometer_Bourns_3296W_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

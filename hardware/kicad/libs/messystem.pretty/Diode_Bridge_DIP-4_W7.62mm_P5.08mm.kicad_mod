@@ -1,0 +1,264 @@
+(footprint "Diode_Bridge_DIP-4_W7.62mm_P5.08mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "4-lead dip package for diode bridges, row spacing 7.62 mm (300 mils), see http://cdn-reichelt.de/documents/datenblatt/A400/HDBL101G_20SERIES-TSC.pdf")
+	(tags "DIL DIP PDIP 5.08mm 7.62mm 300mil")
+	(property "Reference" "REF**"
+		(at 3.8 -2.7)
+		(layer "F.SilkS")
+		(uuid "44318097-97df-4bba-babd-752f45fd732d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Diode_Bridge_DIP-4_W7.62mm_P5.08mm"
+		(at 3.8 7.8)
+		(layer "F.SilkS")
+		(uuid "9f9aef7e-8fe5-44f4-beb7-aa104699537d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e95f634-8e91-424b-b877-ffec0fbb9ca9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "4-lead dip package for diode bridges, row spacing 7.62 mm (300 mils), see http://cdn-reichelt.de/documents/datenblatt/A400/HDBL101G_20SERIES-TSC.pdf"
+		(at 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c524a23c-090f-4f41-97b8-ef5627b6a2a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1.04 -1.9)
+		(end 1.04 6.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1eff133f-3ca4-404b-9442-717a111c7af1")
+	)
+	(fp_line
+		(start 1.04 6.7)
+		(end 6.58 6.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff76b4a4-da4e-47f4-80a7-e50959e2328c")
+	)
+	(fp_line
+		(start 2.81 -1.9)
+		(end 1.04 -1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56f380cf-7e1e-4904-aabb-f62084a78cab")
+	)
+	(fp_line
+		(start 6.58 -1.9)
+		(end 4.81 -1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4efc0e08-3bc3-46b4-be1c-7cac64929e41")
+	)
+	(fp_line
+		(start 6.58 6.7)
+		(end 6.58 -1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c463d7cc-caf8-4a84-be20-7cd8f5bd70db")
+	)
+	(fp_arc
+		(start 4.81 -1.9)
+		(mid 3.81 -0.9)
+		(end 2.81 -1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b14576f-947b-4f23-9423-b064647e05dc")
+	)
+	(fp_line
+		(start -1.05 -2.05)
+		(end -1.05 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b8234555-2b77-4828-acb0-bf979718e12b")
+	)
+	(fp_line
+		(start -1.05 -2.05)
+		(end 8.67 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98d90efe-f7de-477f-9cd3-c4fb5c130ac6")
+	)
+	(fp_line
+		(start 8.67 6.85)
+		(end -1.05 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "733e53dd-a014-4502-985a-ee8ea90476f3")
+	)
+	(fp_line
+		(start 8.67 6.85)
+		(end 8.67 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "612c420d-e350-4400-bf58-050770ad2012")
+	)
+	(fp_line
+		(start 0.635 -0.8)
+		(end 1.635 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f77f94d1-b71c-4040-b740-b17ea0513c90")
+	)
+	(fp_line
+		(start 0.635 6.6)
+		(end 0.635 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81c93ca2-ff40-4e5d-bb69-bae2fe0a2cf7")
+	)
+	(fp_line
+		(start 1.635 -1.8)
+		(end 6.985 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "914977d8-20f5-45da-90be-f0e64a9094ab")
+	)
+	(fp_line
+		(start 6.985 -1.8)
+		(end 6.985 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "514f543f-34be-4429-bb32-53a2dd6d9bd5")
+	)
+	(fp_line
+		(start 6.985 6.6)
+		(end 0.635 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e334312-9655-4495-afa8-5286a2955e0c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 2.54)
+		(layer "F.Fab")
+		(uuid "7d391e83-b99b-4d1f-a22d-a8156d74827c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d2a3421e-e4c5-4ad5-8fd3-64992e758972")
+	)
+	(pad "2" thru_hole oval
+		(at 0 5.08)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df5f3c92-a23d-4799-ad73-6f4730f52143")
+	)
+	(pad "3" thru_hole oval
+		(at 7.62 5.08)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "520eca54-4ca8-44c8-90dc-b06745f03d7e")
+	)
+	(pad "4" thru_hole oval
+		(at 7.62 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0297d4c1-1dbc-4043-a5ed-36cee6d96bc6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/Diode_Bridge_DIP-4_W7.62mm_P5.08mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

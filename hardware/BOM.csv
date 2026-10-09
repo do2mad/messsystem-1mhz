@@ -1,0 +1,41 @@
+Menge;Bezeichner;Bauteil;Wert;Gehaeuse;Funktion
+1;U1;CD4051BE;;DIP-16;8:1 Analog-Mux
+1;U2;ATmega328P-PU;;DIP-28;MCU (int. 8 MHz)
+1;U3;LCD 20x4 HD44780;;Modul parallel;Display + 16-pol Leiste
+1;U4;MCP6004;;DIP-14;Quad-OpAmp RRIO, Sektion A = Follower, max. 6 V
+1;U5;LM4040DIZ-4.1;4,096 V;TO-92;Spannungsreferenz (Test: LM4040-2.5)
+1;D1;Brueckengleichrichter;;KONFLIKT;Value MB6S (SOP-4) vs. Footprint Diode_Bridge_DIP-4 - klaeren
+14;D2,D3,D6-D17;1N4148;;DO-35;bipolare Klemmdioden (2x je Kanal)
+1;R1;Widerstand;10k;0207;Reset-Pullup
+1;R2;Widerstand;1k;0207;Vorwiderstand Referenz U5
+1;R3;Widerstand;180R;0207;LCD-Backlight
+1;R4;Trimmpoti;10k;Bourns 3296W stehend;LCD-Kontrast
+1;R5;Widerstand;100R;0207;Serie OpAmp->ADC
+1;R6;Widerstand;470k;0207;AC-Teiler oben
+1;R7;Widerstand;150k;0207;AC-Teiler unten
+6;R11,R13,R15,R19,R20,R21;Widerstand;1M;0207;DC-Teiler oben
+6;R10,R12,R14,R16,R17,R18;Widerstand;100k;0207;DC-Teiler unten
+1;C1;Keramik/Folie;1u;RM5;VREF-Filter
+1;C2;Keramik;100n;RM5;VREF-Filter (nah an AREF)
+1;C3;Keramik;10n;RM5;AC-Knoten (nicht vergroessern)
+6;C5,C6,C7,C8,C9,C10;Keramik X7R;100n;RM5;DC-Teilerknoten
+3;C4,C11,C12;Keramik;100n;RM5;Abblockung U1/U2/U4
+1;C13;Elko;100u;RM2,5;Stuetzkondensator +5V
+1;J1;Bananenbuchse 2mm (2x);;RM2,54;AC-Eingang 9V~
+6;J2-J7;Bananenbuchse 2mm (je 2x);;RM2,54;DC1-DC6 - Plus links anordnen
+1;J8;IDC-Wanne 2x05;;RM2,54;Sammelstecker (parallel zu J1-J7)
+1;J9;Stiftleiste 1x02;;RM2,54;+5V Einspeisung
+1;J10;USB-Mini-B Buchse;;liegend;+5V Einspeisung (VBUS/GND/Schirm)
+2;J13,J14;Buchsenleiste 1x12;DC1-DC6;RM2,54;Signal links + GND rechts je Kanal
+2;J11,J12;Buchsenleiste 1x04;5V/AC;RM2,54;+5V,GND,AC1,AC2
+1;J15;Stiftleiste 1x03;serial;RM2,54;1=GND 2=TX(PD1) 3=RX(PD0)
+1;J16;Bananenbuchse 2mm (2x);DC6-2;RM2,54;zweiter Abgriff fuer DC6
+1;SW1;Taster (Schliesser);;Kurzhub;Kalibrierung PC3->GND
+1;-;IC-Sockel-Set;;DIP-28/16/14;optional
+1;Q1;2N7000;;TO-92;LCD-Licht schalten (V1.1)
+1;R22;Widerstand;100R;0207;Gate Q1 (V1.1)
+1;R23;Widerstand;100k;0207;Gate-Pulldown Q1 (V1.1)
+1;R24;Widerstand;330R;0207;Summer (V1.1)
+1;BZ1;Piezo passiv Reichelt EPM 121;EPM 121;12mm;Alarmton an PB6/PB7, 4 kHz (V1.1)
+1;J17;Stiftleiste 1x06;;RM2,54;Erweiterung +5V/PC1/PC2/PC4/PC5/GND (V1.1)
+1;J18;Stiftleiste 2x03;;RM2,54;ISP (V1.1)

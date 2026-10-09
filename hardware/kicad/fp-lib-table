@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "messystem")(type "KiCad")(uri "${KIPRJMOD}/libs/messystem.pretty")(options "")(descr "Alle im Projekt benutzten Footprints"))
+)

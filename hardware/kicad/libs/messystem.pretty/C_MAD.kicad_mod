@@ -1,0 +1,208 @@
+(footprint "C_MAD"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3*2mm^2, Capacitor")
+	(tags "C Disc series Radial pin pitch 2.50mm diameter 3mm width 2mm Capacitor")
+	(property "Reference" "REF**"
+		(at 1.25 -2.25 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "08eee1d1-ba62-4c07-9809-88622cca60f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_MAD"
+		(at 1.25 2.25 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d6a3725-37d8-4488-a492-9179d50c1f72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92941837-500f-4feb-b85a-f0584e99fc9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3*2mm^2, Capacitor"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7074e5c1-e7d0-4875-b90d-3501ca137612")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.8636 0.0254)
+		(end 1.0414 0.0248)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1add0252-36e0-495c-9569-d4e194ea8bc3")
+	)
+	(fp_line
+		(start -1.5875 0.0248)
+		(end -0.9652 0.0248)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0e28988f-637a-4318-b457-74e9073994a9")
+	)
+	(fp_line
+		(start 1.3843 0.0248)
+		(end 1.6764 0.0248)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14bb458e-c2be-4a1b-a8df-e46a1d5936a6")
+	)
+	(fp_line
+		(start 3.4925 0.0248)
+		(end 4.1148 0.0248)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "703431ea-0e5b-43e0-b514-34e01ad0d840")
+	)
+	(fp_rect
+		(start 1.0414 -0.5346)
+		(end 1.1176 0.5842)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cb656c83-11b6-4253-add6-24c618145aec")
+	)
+	(fp_rect
+		(start 1.3462 -0.5346)
+		(end 1.4224 0.5842)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2c92e8f4-e6d5-4376-9769-bbb38fd5a84c")
+	)
+	(fp_rect
+		(start -1 -0.889)
+		(end 3.545 0.911)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "82104cc1-8078-4b50-a96e-a2cbd385083c")
+	)
+	(fp_rect
+		(start -0.25 -1)
+		(end 2.75 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fcacb025-1679-438b-9c44-a6d32b256a64")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.93 0 270)
+		(layer "F.SilkS")
+		(uuid "7bbae306-6745-4474-8cea-0168f120fe51")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(fp_text user "${VALUE}"
+		(at -4.98 -0.01 90)
+		(layer "F.SilkS")
+		(uuid "8dfcfa67-d6c6-4f6a-b4d4-b522f6e51293")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "25ae8da0-f975-49df-b308-047c9502ea2f")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b501495a-ff03-4ae0-9b08-830e7c151e4c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "868feeb0-3a17-4a6b-aaa5-8e7001d0537b")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5e2534f-88d7-4803-847c-3370dd9eaca2")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/C_Disc_D3.0mm_W2.0mm_P2.50mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

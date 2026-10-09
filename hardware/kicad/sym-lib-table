@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "messystem")(type "KiCad")(uri "${KIPRJMOD}/libs/messystem.kicad_sym")(options "")(descr "Alle im Projekt benutzten Symbole"))
+)
